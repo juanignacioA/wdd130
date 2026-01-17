@@ -5,6 +5,10 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #000;
+    padding: 2px;
+    margin: 1rem;
+    box-shadow: 0 0 30px #333;
 }
 
 nav {
