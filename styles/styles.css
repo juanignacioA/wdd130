@@ -1,3 +1,9 @@
+:root {
+    --primary-color: rgb(0, 0, 139);
+    --shadow-color: #333;
+
+}
+
 main {
     max-width: 840px;
 }
@@ -8,11 +14,11 @@ main img {
     border: 1px solid #000;
     padding: 2px;
     margin: 1rem;
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
 nav {
-    background-color: darkblue;
+    background-color:  var(--primary-color);
     padding: 10px;
 }
 
@@ -23,7 +29,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 img {
@@ -31,7 +37,7 @@ img {
     height: auto;
     border: 1px solid #000;
     padding: 2px;
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
 p {
