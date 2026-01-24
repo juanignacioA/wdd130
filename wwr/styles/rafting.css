@@ -69,7 +69,7 @@ nav, p, section, article {
     background-color: var(--color-light-0);
     display: flow-root;
     position: absolute;
-    top: 40%;
+    top: 37%;
 }
 
 .hero article img{
