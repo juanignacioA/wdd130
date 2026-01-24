@@ -54,7 +54,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -62,11 +62,11 @@ h1 {
     text-align: center;
     opacity: 0.71;
     background-color: var(--color-medium-1);
-    color: #fff;
+    color: var(--color-light-1);
 }
 
-article { 
-    background-color: var(--color-medium-1);
+.hero article { 
+    background-color: var(--color-light-0);
     display: flow-root;
     position: absolute;
     top: 40%;
@@ -76,7 +76,7 @@ article {
     float: right;
     width: 100px;
     height: auto;
-    border: solid 3px var(--color-light-0);
+    border: solid 3px var(--color-medium-0);
     box-shadow: 0 0 30px  #333;
     margin-left: 20px;
 }
