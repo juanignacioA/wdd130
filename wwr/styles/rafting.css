@@ -76,7 +76,7 @@ header nav ul li a{
     margin: 0;
     text-decoration: none;
     font-size: 1.2rem;
-    color: var(--color-light-1);
+    color: white;
 }
 
 .history {
