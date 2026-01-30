@@ -84,7 +84,7 @@ header nav ul li a{
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: auto 1fr;
     padding: 1rem;
-    border: solid 3px var(--color-medium-1);
+    border: solid 3px var(--color-light-0);
     width: 100% ;
     margin: 1rem 0;
     align-items: start;
