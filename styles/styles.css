@@ -13,7 +13,20 @@
 
 body {
     align-items: center;
+    margin: 0 auto;
+}
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0.5rem;
 }
 
 nav {
@@ -31,9 +44,28 @@ nav a {
     /*display: inline-block;*/
 }
 
-main {
-    max-width: 840px;   
+.grid {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;  
+}
+
+main {  
     padding: 10px;
+    margin: 1rem;
+    background-color: rgba(144, 144, 144, 0.5);
+    grid-column: 2/3;
+    
+}
+
+aside {
+    text-align: center;
+    width: 17rem;
+    height: auto;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/-1;
 }
 
 main img {
@@ -59,7 +91,8 @@ ul li {
 h1 {
     color: var(--primary-color);
     padding: 1rem;
-
+    border-bottom: solid var(--primary-color);
+    font-size: 1.8rem;
 }
 
 img {
@@ -75,11 +108,7 @@ p {
 
 }   
 
-aside {
-    text-align: center;
-    width: 19rem;
-    position: relative;
-}
+
 
 aside img {
     width: 200px;
