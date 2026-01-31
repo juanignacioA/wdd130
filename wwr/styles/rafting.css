@@ -5,6 +5,7 @@
   --color-medium-1: #235347;
   --color-light-0: #8EB69B;
   --color-light-1: #DAF1DE;
+  --dark: #333;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif; 
 }
@@ -76,7 +77,7 @@ header nav ul li a{
     margin: 0;
     text-decoration: none;
     font-size: 1.2rem;
-    color: white;
+    color: var(--color-light-1);
 }
 
 .history {
@@ -84,7 +85,7 @@ header nav ul li a{
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: auto 1fr;
     padding: 1rem;
-    border: solid 3px var(--color-light-0);
+    border: solid 3px var(--color-medium-0);
     width: 100% ;
     margin: 1rem 0;
     align-items: start;
@@ -134,7 +135,7 @@ header nav ul li a{
 .adventure figure {
     margin: 1rem;
     text-align: center;
-    
+
 }
 
 .adventure figcaption {
@@ -229,6 +230,6 @@ footer p {
     width: 100px;
     height: auto;
     border: solid 3px var(--color-medium-0);
-    box-shadow: 0 0 30px  #333;
+    box-shadow: 0 0 30px  var(--dark);
     margin-left: 20px;
 }
