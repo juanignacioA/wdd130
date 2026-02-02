@@ -54,7 +54,8 @@ header {
 
 header ul{
     display: grid; 
-    justify-content: space-around;       
+    grid-auto-flow: column;
+    justify-content: space-around;  
     list-style: none;
     height: 100%;
 }
@@ -63,9 +64,9 @@ header nav ul li a{
     text-decoration: none;
     color: var(--color-light-1);
     font-size: 1.2rem;
-    transition: color 0.3s;
     margin: 0;
-    padding: 25px 50px;  
+    padding: 25px 50px; 
+    transition: color 0.3s; 
 }
 
 header a:hover {
