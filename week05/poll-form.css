@@ -103,3 +103,13 @@ footer {
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
+
+.palcescolumn {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    
+}
+
+.palcescolumn textarea {
+    color: #777;
+}
