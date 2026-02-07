@@ -259,6 +259,8 @@ iframe {
 }
 
 .form-group {
+    flex-direction: column; 
+    align-items: flex-start;
     padding: 0.4rem;
 }
 
